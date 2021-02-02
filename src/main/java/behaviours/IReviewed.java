@@ -4,7 +4,8 @@ import people.Visitor;
 
 public interface IReviewed {
 
-    double defaultPrice();
+    int getRating();
 
-    double priceFor(Visitor  visitor);
+    String getName();
+
 }
